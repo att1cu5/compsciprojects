@@ -1,0 +1,4 @@
+print("hi my name is bot, what is your name?")
+name=string(input())
+print("hi ",name," .")
+
