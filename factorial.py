@@ -1,25 +1,7 @@
 i=int(input())
-if(i==12):
-  print((i)(i-1)(i-2)(i-3)(i-4)(i-5)(i-6)(i-7)(i-8)(i-9)(i-10)(i-11))
-if(i==11):
-  print((i)(i-1)(i-2)(i-3)(i-4)(i-5)(i-6)(i-7)(i-8)(i-9)(i-10))
-if(i==10):
-  print((i)(i-1)(i-2)(i-3)(i-4)(i-5)(i-6)(i-7)(i-8)(i-9))
-if(i==9):
-  print((i)(i-1)(i-2)(i-3)(i-4)(i-5)(i-6)(i-7)(i-8))
-if(i==8):
-  print((i)(i-1)(i-2)(i-3)(i-4)(i-5)(i-6)(i-7))
-if(i==7):
-  print((i)(i-1)(i-2)(i-3)(i-4)(i-5)(i-6))
-if(i==6):
-  print((i)(i-1)(i-2)(i-3)(i-4)(i-5))
-if(i==5):
-  print((i)(i-1)(i-2)(i-3)(i-4))
-if(i==4):
-  print((i)(i-1)(i-2)(i-3))
-if(i==3):
-  print((i)(i-1)(i-2))
-if(i==2):
-  print((i)(i-1))
-if(i==1):
-  print(i)
+x=0
+h=0
+while(i>=1):
+  h=i-x
+  x=x+1
+print(h)
