@@ -1,3 +1,6 @@
+print("hi my name is bot, what is your name?")
+name=input()
+print("hi ",name,".")
 print("input a number: ")
 i=int(input())
 s=1
