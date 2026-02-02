@@ -1,7 +1,8 @@
+print("input a number: ")
 i=int(input())
-x=0
-h=0
-while(i>=1):
-  h=i-x
-  x=x+1
-print(h)
+s=1
+x=i+1
+for i in range(1,x):
+   s=s*i
+print("factorial:")
+print(s)
