@@ -3,11 +3,11 @@ name=input()
 print("hi ",name,".")
 print("what is your grade?")
 grade=int(input())
-if(grade=>80):
+if(grade>=80):
   print("you got an A")
-if(grade>=60 && grade<80):
+if(grade>=60 and grade<80):
   print("you got an B")
-if(grade>=50 && grade<60):
+if(grade>=50 and grade<60):
   print("you got an C")
 if(grade<50):
   print("you got an F")
