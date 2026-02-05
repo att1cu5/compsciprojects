@@ -1,4 +1,4 @@
-//
+
 print("Hi my name is bot, what is yours?")
 name=input()
 print("Hi ",name,"!")
